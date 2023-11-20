@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../Projects/Apprenticeship/Litva Kebabs Project/Code/apprenticeship-2023-sd-hci/node_modules"
+		},
+		{
+			"path": "../../Projects/Apprenticeship/Litva Kebabs Project/Code/apprenticeship-2023-sd-hci/obj"
+		},
+		{
+			"path": "../../Projects/Apprenticeship/Litva Kebabs Project/Code/apprenticeship-2023-sd-hci/public"
+		},
+		{
+			"path": "../../Projects/Apprenticeship/Litva Kebabs Project/Code/apprenticeship-2023-sd-hci/bin"
+		},
+		{
+			"path": "../../Projects/Apprenticeship/Litva Kebabs Project/Code/apprenticeship-2023-sd-hci/Controllers"
+		},
+		{
+			"path": "../../Projects/Apprenticeship/Litva Kebabs Project/Code/apprenticeship-2023-sd-hci/Menus"
+		}
+	],
+	"settings": {}
+}

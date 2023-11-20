@@ -1,0 +1,108 @@
+{
+    "menu": {
+    "food": [
+    {
+        "name": "Kebab Wrap",
+        "price": 6.00
+    },
+    {
+        "name": "Chicken Shawarma",
+        "price": 7.00
+    },
+    {
+        "name": "Falafel Plate",
+        "price": 5.00
+    },
+    {
+        "name": "Pita with Hummus",
+        "price": 5.50
+    }
+
+    ],
+    
+    "drinks": [
+    {
+        "name": "Iced Tea",
+        "price": 2.50
+    },
+    {
+        "name": "Fanta",
+        "price": 2.00
+    },
+    {
+        "name": "Coca Cola",
+        "price": 2.00
+    },
+    {
+        "name": "Sprite",
+        "price": 2.50
+    },
+    {
+        "name": "Pepsi Max",
+        "price": 2.50
+    },
+    {
+        "name": "Bottled Water",
+        "price": 2.50
+    }
+   ],
+   "sides": [
+    {
+        "name": "French Fries",
+        "price": 2.50
+    },
+    {
+        "name": "Onion Rings",
+        "price": 2.00
+    },
+    {
+        "name": "Walkers Salted Crisps",
+        "price": 2.00
+    },
+    {
+        "name": "Coleslaw",
+        "price": 2.50
+    },
+    {
+        "name": "Falafel",
+        "price": 2.50
+    },
+    {
+        "name": "Garlic Bread",
+        "price": 2.50
+    }
+    ],
+    "sauces": [
+        {
+            "name": "Tahini Sauce",
+            "price": 2.50
+        },
+        {
+            "name": "Garlic Sauce",
+            "price": 2.00
+        },
+        {
+            "name": "BBQ Sauce",
+            "price": 2.00
+        },
+        {
+            "name": "Pesto",
+            "price": 2.50
+        },
+        {
+            "name": "Sweet Chili Sauce",
+            "price": 2.50
+        },
+        {
+            "name": "Tzatziki",
+            "price": 2.50
+        },
+        {
+            "name": "Ranch Dressing",
+            "price": 2.50
+        }
+        ]
+
+ }
+
+}

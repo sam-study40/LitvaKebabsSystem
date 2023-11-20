@@ -1,0 +1,30 @@
+{
+    "drinks": [
+    {
+        "name": "Iced Tea",
+        "price": 2.50
+    },
+    {
+        "name": "Fanta",
+        "price": 2.00
+    },
+    {
+        "name": "Coca Cola",
+        "price": 2.00
+    },
+    {
+        "name": "Sprite",
+        "price": 2.50
+    },
+    {
+        "name": "Pepsi Max",
+        "price": 2.50
+    },
+    {
+        "name": "Bottled Water",
+        "price": 2.50
+    }
+
+
+    ]
+}

@@ -1,0 +1,25 @@
+<!-- This project file defines the configuration for the Kebab Shop API. It specifies project metadata,
+       dependencies, and the target framework. This project is an ASP.NET Core web application.
+
+       - OutputType: Specifies the type of output (Exe for executable).
+       - TargetFramework: Specifies the target .NET framework version.
+       - PackageReferences: Lists packages required for the project, such as ASP.NET Core components.
+
+       Note: The actual API functionality is implemented in C# code files, especially in controllers.
+-->
+
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+   <PropertyGroup>
+       <OutputType>Exe</OutputType>
+       <TargetFramework>net6.0</TargetFramework>
+   </PropertyGroup>
+
+   <ItemGroup>
+       <PackageReference Include="Microsoft.AspNetCore.Components.Web.Extensions" Version="6.0.0" />
+       <PackageReference Include="Microsoft.AspNetCore.Components.Web.Extensions" Version="6.0.0" />
+       <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.0" />
+       <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="6.0.0" />
+   </ItemGroup>
+
+</Project>
