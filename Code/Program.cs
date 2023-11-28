@@ -1,19 +1,9 @@
-/*Explanation of code:
-Program class:
-Main: Entry point of the application.
-CreateHostBuilder: Configures the host and sets up the startup class.
-Startup class:
-ConfigureServices: Configures services needed by the application.
-Configure: Configures the request processing pipeline.
-MenuController class:
-Simple controller with a single action (Get) that returns a string.
-*/
-
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using System;
 
 public class Program
 {
@@ -65,6 +55,23 @@ public class Startup
         {
             endpoints.MapControllers();
         });
+
+        // Seed the database with initial menu data
+        using (var scope = app.ApplicationServices.CreateScope())
+        {
+            var services = scope.ServiceProvider;
+            try
+            {
+                var databaseService = services.GetRequiredService<DatabaseService>();
+                MenuInitializer.InitializeMenu(databaseService);
+            }
+            catch (Exception ex)
+            {
+                // Handle exceptions if needed
+                Console.WriteLine("An error occurred while seeding the database.");
+                Console.WriteLine(ex.Message);
+            }
+        }
     }
 }
 
