@@ -1,6 +1,9 @@
 // Home.js
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Menu from './Menu';
+import Cart from './Cart';
+import Home from './Home';
 
 const Home = () => (
   <div style={{ textAlign: 'center' }} className="App">
