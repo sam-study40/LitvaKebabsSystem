@@ -6,7 +6,7 @@ const MenuApp = () => {
   const [drinkMenu, setDrinkMenu] = useState([]);
 
   useEffect(() => {
-    // Update the fetch path to match the correct URL
+    // Fetch menu data 
     fetch('/menu.json')
   .then(response => response.json())
   .then(data => {
