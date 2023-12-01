@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const fs = require('fs'); // Required for reading the JSON file
 const app = express();
-const port = 3000;
+const port = 5000;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static('public'));
@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
 });
 
 app.post('/order', (req, res) => {
-    // ... (your order processing logic)
+    // ... (order processing logic)
 
     res.send(`<h2>Your Order:</h2>
         <p>Item: ${itemName}</p>

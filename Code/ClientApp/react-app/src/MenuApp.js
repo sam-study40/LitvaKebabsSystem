@@ -6,14 +6,16 @@ const MenuApp = () => {
   const [drinkMenu, setDrinkMenu] = useState([]);
 
   useEffect(() => {
-    // Fetch menu data from menu.json
+    // Update the fetch path to match the correct URL
     fetch('/menu.json')
-      .then(response => response.json())
-      .then(data => {
-        setFoodMenu(data.food);
-        setDrinkMenu(data.drinks);
-      })
-      .catch(error => console.error('Error fetching menu data:', error));
+  .then(response => response.json())
+  .then(data => {
+    console.log(data);
+    setFoodMenu(data.food);
+    setDrinkMenu(data.drinks);
+  })
+  .catch(error => console.error('Error fetching menu data:', error));
+
   }, []);
 
   return (
